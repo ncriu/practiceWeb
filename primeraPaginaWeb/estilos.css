@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #e4002b;
+    display: inline-flex;
+}
+h2{
+    font: bold 14px sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+header,section,footer,aside,nav,article,hgroup{
+    display:block;
+}
+
+.headerText{
+    color: #444;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    font-family: Foco, sans-serif;
+}
+
+.agrupar{
+    border: 1px solid #ddd;
+    width: 1025px;
+    margin: 15px auto;
+}
+
+img{
+    width:80px;
+    height: 100px;
+    display: block;
+    margin: 20px auto;
+}
+
+.header{
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+.header h1{
+    text-align: left;
+}
+
+.menu{
+    padding: 5px 15px;
+    text-align: left;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 0;
+    height: 65px;   
+}
+
+.menu li{
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-decoration: none;
+    font: bold 14px verdana;
+}
+ul{
+   margin-top: 17.5px;
+   margin-left: 62px;
+}
+
+
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.fSearchMenu{
+    background: white;
+    padding: 20px;
+    border: 0.0625em solid #cdcdcd;
+    margin-bottom: 0.9375em;
+}
+
+time{
+    color: #999;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+    
+}
+
+.columna{
+    width: 300px;
+    float: left;
+    margin: 20px 0;
+
+}
+
+.columna blockquote{
+    border: 1px solid #ddd;
+    padding: 40px;
+    background: #FFFBB9;
+}
+
+.pie{
+    clear:both;
+    padding: 20px;
+    background: #2d3436;
+    color: #ffffff;
+}
+
+.asideContent{
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+li{
+    flex-basis: calc(100% / 3);
+    position: relative;
+    font-weight: 400;
+    border-right: 1px solid #ddd;
+    display: inline-flex;
+    
+    transition: all .3s ease-in-out;
+}
+
+.riuSteps{
+    color: #ca5c5c;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    font-weight: 500;
+}
+
+.pie1{
+    flex-direction: row;
+}
+
+.menuSearch{
+    display: flex;
+    color: #444;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 3px solid hsla(210,1%,58%,.8);
+    margin-bottom: 20px;
+    position: relative;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.contenedorListadoHoteles{
+    margin-bottom: 3rem;
+}
+
+.hotelInList{
+    font-family: Raleway,sans-serif;
+    display: flex;
+}
+
+.hotelInListF{
+    flex-direction: row;
+}
+
+.hotelListImage{
+    width: 25%;
+}
+
+.hotelImage{
+    min-width: 330px;
+    left: 50%;
+    top: 50%;
+    cursor: pointer;
+}
+
+.hotelInfo{
+    display: block;
+}
+
+
+.hotelInfot{
+    padding: 0.625em 0.625em 0;
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotelInfoth{
+
+}
+
+.riuHotelName{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.riuLocation{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+
+.riuMapLocation{
+    color: #ca5c5c;
+}
+
+.riuButton{
+    color: #ca5c5c;
+    border: 0;
+    background: transparent;
+    text-decoration: none;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0;
+}
+
+.locationTitle{
+    text-decoration: underline;
+}
+
+.riuLinkTitle{
+    color: #444;
+    font-weight: 700;
+}
+
+.riu-link {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+}
